@@ -11,8 +11,8 @@ namespace CircleCalculations
             string input = Console.ReadLine();
             double radius = double.Parse(input);
 
-            double area = 3.14 * radius * radius;
-            double circumference = 2 * 3.14 * radius;
+            double area = Math.PI * radius * radius;
+            double circumference = 2 * Math.PI * radius;
             double diameter = 2 * radius;
 
             Console.WriteLine("Area: " + area + " units squared");
